@@ -5,6 +5,11 @@ body {
 header {
     background-color: darkslategray;
     position: fixed;
+    display: block;
+}
+
+header .flexbox {
+    display: flex;
 }
 
 nav ul{
