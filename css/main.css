@@ -20,7 +20,7 @@ nav a{
     text-align: center;
     text-decoration: none;
     display: block;
-    margin: auto;
+    margin: 10em;
 }
 
 nav a.current {
