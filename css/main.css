@@ -1,29 +1,33 @@
 body {
     background-color: dimgray;
+    margin: 0;
 }
 
 header {
     background-color: darkslategray;
-    position: fixed;
+    position: sticky;
+    width: 100%;
     display: block;
 }
 
-header .flexbox {
-    display: flex;
+nav {
+    overflow: hidden;
 }
 
-nav ul{
-    padding: 0;
-    margin: 0;
-    white-space: nowrap;
-    display: inline-block;
+nav a{
+    float: left;
+    color: wheat;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
 }
 
-nav ul li{
-    color: wheat
-}
-
-li.current {
+nav a.current {
     background-color: wheat;
     color:darkslategray;
+}
+
+nav a.right {
+    float: right;
 }
