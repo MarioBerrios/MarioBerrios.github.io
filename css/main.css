@@ -1,10 +1,10 @@
 body {
-    background-color: dimgray;
+    background-color: #696969;
     margin: 0;
 }
 
 header {
-    background-color: darkslategray;
+    background-color: #2f4f4f;
     position: sticky;
     width: 100%;
     display: block;
@@ -16,7 +16,7 @@ nav {
 
 nav a{
     float: left;
-    color: wheat;
+    color: #f5deb3;
     text-align: center;
     text-decoration: none;
     display: block;
@@ -24,8 +24,8 @@ nav a{
 }
 
 nav a.current {
-    background-color: wheat;
-    color:darkslategray;
+    background-color: #f5deb3;
+    color:#2f4f4f;
 }
 
 nav a.right {
